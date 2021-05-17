@@ -1,9 +1,7 @@
-fun main() {
-
+fun main(){
     var i = 1
-
-    while (i <= 5) {
+    do{
         println("Number $i")
         ++i
-    }
+    }while (i <= 5)
 }
